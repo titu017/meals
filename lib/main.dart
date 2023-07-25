@@ -22,7 +22,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: theme,
-      home: Text('This is a Test'),
+      home: SafeArea(child: Text('Hello')),
     );
   }
 }
